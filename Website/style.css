@@ -1,0 +1,106 @@
+body {
+  color: #edf0f1;
+}
+img {
+  width: 100%;
+}
+main {
+  padding: 4%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  padding-top: 2%;
+  }
+
+
+.nav__links a,
+.cta, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__links li {
+  padding: 0% 2%;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: rgb(164, 91, 236);
+}
+
+a {
+  text-decoration: none;
+}
+h1, h2, h5 {
+  text-align: center;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 0;
+  height: 100%;
+  overflow-x: hidden;
+  transition: width 0.5s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.overlay a {
+  color: #edf0f1;
+  padding: 10px;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
