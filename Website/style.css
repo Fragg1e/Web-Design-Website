@@ -1,6 +1,4 @@
-body {
-  color: #edf0f1;
-}
+
 img {
   width: 100%;
 }
@@ -9,10 +7,29 @@ main {
 }
 
 footer {
-  position: fixed;
+  
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+img{
+  width: 50%;
+  height: auto;
+  padding: 5%;
+  
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.words {
+  padding-bottom: 4%;
+  
 }
 
 ul {
@@ -28,7 +45,7 @@ nav{
 .nav__links a,
 .cta, a {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  
   color: #edf0f1;
   text-decoration: none;
 }
@@ -51,6 +68,12 @@ nav{
   color: rgb(164, 91, 236);
 }
 
+#active {
+  font-weight: bolder;
+  font-size: 1.1vw;
+}
+
+
 a {
   text-decoration: none;
 }
@@ -63,44 +86,11 @@ h1, h2, h5 {
   justify-content: center;
 }
 
-.menu {
-  display: none;
+.logo {
   cursor: pointer;
-}
-
-.overlay {
-  position: fixed;
-  z-index: 9999;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 0;
-  height: 100%;
-  overflow-x: hidden;
-  transition: width 0.5s;
-}
-
-.overlay--active {
-  width: 100%;
-}
-
-.overlay__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.overlay a {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.8vw;
   color: #edf0f1;
-  padding: 10px;
-  font-size: 24px;
-}
-
-@media only screen and (max-width: 800px) {
-  .nav__links {
-    display: none;
-  }
-  .menu {
-    display: block;
-  }
+  text-decoration: none;
+  margin-right: auto;
 }
