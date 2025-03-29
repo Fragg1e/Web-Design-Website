@@ -1,93 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="UTF-8">
     <meta name="description" content="Air pollution awareness">
     <meta name="keywords" content="Pollution, Air, Quality, ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-
-    <link rel="icon" href="images/icon.svg" type="image/x-icon" />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link rel="icon" href="images/icon.svg" type="image/x-icon">
 
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
-    />
+    >
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
 
     <style>
       body {
         color: #edf0f1;
         font-size: 1.2vw;
-          }
-      
-  </style>
-    
+      }
+    </style>
   </head>
-  <body class="bg-dark">
+  <body>
     <header>
-      
       <nav>
         <ul class="nav__links">
-          <li id = "active"><a href="index.html">Home</a></li>
+          <li id="active"><a href="index.html">Home</a></li>
           <li><a href="facts.html">Facts</a></li>
           <li><a href="risks.html">Risks</a></li>
           <li><a href="solutions.html">Solutions</a></li>
-          <li ><a href="city_pollution.html">Cities</a></li>
+          <li><a href="city_pollution.html">Cities</a></li>
         </ul>
       </nav>
-      
     </header>
 
     <main>
-      <br><br><br>
-      <h1>This is a college project completed as part of an assignment.</h1>
-    
-      <article>
-        <h2>Google Chrome</h2>
-        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-      </article>
+      <h1>Air Pollution Awareness</h1>
 
-      <aside>
-        <h4>Epcot Center</h4>
-        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-        </aside>
+      <iframe
+        id="home_video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/e6rglsLy1Ys?si=lNbT8Tu0q_7k5cTY"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
 
-        <section>
-        <h3>Economic Impact</h3>
-        <p>The economic impact of air pollution is significant. It affects the lives of millions, disrupts transportation, and affects the quality of life for millions of people.</p>
-      </section>
+      <h2>This is a college project completed as part of an assignment.</h2>
+
+      <h2>Sign up to our Newsletter Here!</h2>
 
       <form action="http://foo.com" method="get">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <br><br>
-        <button type="submit">Submit</button>
-    
+        <input type="text" id="name" name="name" >
+
+        <label for="email"
+          >Email:<span class="required-asterisk">*</span></label
+        >
+        <input type="email" id="email" name="email" required >
+
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <footer style="padding: 10px">©Copyright - 2025</footer>
     </main>
-    
-    <script src="script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
   </body>
-  <footer style="padding: 10px">©Copyright - 2025</footer>
 </html>

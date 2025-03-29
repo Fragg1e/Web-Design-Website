@@ -1,6 +1,6 @@
-
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(37, 38, 49);
 }
 
 img {
@@ -9,24 +9,35 @@ img {
 
 main {
   padding: 4%;
-  
+}
+
+form {
+  margin-left: 40%;
 }
 
 footer {
-  
   bottom: 0;
   width: 100%;
   text-align: center;
+  margin-top: 3%;
 }
 
-img{
-  width: 50%;
+img {
+  width: 45%;
   height: auto;
   padding: 5%;
-  
 }
 
-.aside_img{
+.aqi {
+  float: right;
+  width: 80% !important;
+}
+
+#home_video {
+  margin-left: 25%;
+}
+
+.aside_img {
   width: 100%;
 }
 
@@ -39,7 +50,6 @@ img{
 
 .words {
   padding-bottom: 4%;
-  
 }
 
 ul {
@@ -47,17 +57,16 @@ ul {
   margin: 0;
   padding: 0;
 }
-nav{
+nav {
   padding-top: 2%;
-  }
-
+}
 
 .nav__links a,
-.cta, a {
+.cta,
+a {
   font-family: "Montserrat", sans-serif;
-  
+
   color: #edf0f1;
-  text-decoration: none;
 }
 
 .nav__links {
@@ -83,12 +92,14 @@ nav{
   font-size: 1.1vw;
 }
 
-
 a {
   text-decoration: none;
 }
-h1, h2, h5 {
+h1,
+h2,
+h5 {
   text-align: center;
+  padding-bottom: 5%;
 }
 
 .nav__links {
@@ -105,18 +116,21 @@ h1, h2, h5 {
   margin-right: auto;
 }
 
-.text{
+.text {
   padding-left: 5%;
   padding-right: 5%;
-  
+  padding-bottom: 5%;
 }
 
-h2{
-  padding:2%;
+h2 {
+  padding: 2%;
 }
 
-aside{
-  float:right;
+aside {
+  float: right;
+}
+.aside_img {
+  margin-bottom: 5%;
 }
 
 .info {
@@ -130,11 +144,72 @@ aside{
 .info img {
   width: 100%;
   height: auto;
-  
+
   margin-bottom: 0.5%;
   border-radius: 0.05%;
 }
 
 .info p {
   margin-bottom: 1.2%;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.required-asterisk {
+  color: red;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 1%;
+  margin-top: 0.3em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 1em;
+  background: rgb(17, 18, 32);
+
+  color: white;
+  border: none;
+}
+
+#read_more {
+  padding-bottom: 20%;
+  padding-left: 5%;
+}
+
+#bkg {
+  background-image: url("images/bkg_img.avif");
+  color: black;
+  padding-top: 2%;
+}
+
+table {
+  width: 100%;
+  
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: white;
 }
